@@ -178,7 +178,7 @@ export default {
 </script>
 
 <style>
-  @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+  @import url('https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
 
   html, head, body, section, nav, h1, h2, h3, h4, h5, h6, ul, li {
     padding: 0;
