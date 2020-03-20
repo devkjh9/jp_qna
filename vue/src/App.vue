@@ -54,6 +54,8 @@ import words from './words/words'
 import Category from './components/Category.vue'
 import CCanvas from './components/CCanvas.vue'
 
+const cookieName = 'save'
+
 export default {
   name: 'app',
   components: {
@@ -62,6 +64,8 @@ export default {
   data () {
     return {
       categories: words.categories,
+      categoryIdx: -1,
+      wordId: null,
       title: '불러온 데이터 없음',
       question: [],
       wait: [],
@@ -72,14 +76,24 @@ export default {
     }
   },
   methods: {
-    loadData (idx, id) {
+    loadData (idx, id, isCookie) {
       const item = this.categories[idx].words.filter(c => c.id === id)[0]
+      const data = item
+        .data
+        .map((v, i) => {
+          v.index = i
+          return v
+        })
+      this.categoryIdx = idx
+      this.wordId = id
       this.title = item.name
-      this.question = item.data.slice()
-      this.wait = item.data.slice()
+      this.question = data.slice()
+      this.wait = data.slice()
       this.completed = []
       this.current = -1
-      this.next()
+      if (isCookie === undefined) {
+        this.next()
+      }
     },
     next () {
       if (this.wait.length > 0) {
@@ -96,6 +110,7 @@ export default {
         item.isRight = isRight
         this.completed.push(item)
         this.wait.splice(current, 1)
+        this.saveCookie()
         this.next()
       }
     },
@@ -108,6 +123,7 @@ export default {
     cancelCompleteQuestion (index) {
       this.wait.push(this.completed[index])
       this.completed.splice(index, 1)
+      this.saveCookie()
       if (this.current < 0) {
         this.next()
       }
@@ -117,10 +133,47 @@ export default {
       if (wrong.length > 0) {
         this.wait.push(...wrong)
         this.completed = this.completed.filter(c => c.isRight === true)
+        this.saveCookie()
         if (this.current < 0) {
           this.next()
         }
       }
+    },
+    confirmLoad () {
+      this.$cookies.remove('japQna2-cookie')
+      if (this.$cookies.isKey(cookieName)) {
+        if (confirm('저장된 이력이 있습니다.\n다시 불러오시겠습니까?')) {
+          const cookie = this.$cookies.get(cookieName)
+          if (cookie && cookie.x !== undefined &&
+            cookie.w !== undefined && cookie.c !== undefined) {
+            this.loadData(cookie.x, cookie.w, true)
+            cookie.c.forEach(v => {
+              const q = this.question[v.i]
+              const data = { isRight: !!(v.r === 1) }
+              for (let i in q) {
+                data[i] = q[i]
+              }
+              this.completed.push(data)
+              this.wait = this.wait.filter(w => w.index !== v.i)
+            })
+            this.next()
+          } else {
+            this.$cookies.remove(cookieName)
+          }
+        } else {
+          this.$cookies.remove(cookieName)
+        }
+      }
+    },
+    saveCookie () {
+      const data = {
+        x: this.categoryIdx,
+        w: this.wordId,
+        c: this.completed.map(v => {
+          return { i: v.index, r: (v.isRight ? 1 : 0) }
+        })
+      }
+      this.$cookies.set(cookieName, data)
     }
   },
   computed: {
@@ -173,6 +226,7 @@ export default {
           break
       }
     })
+    this.confirmLoad()
   }
 }
 </script>
