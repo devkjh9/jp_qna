@@ -2,7 +2,7 @@ export default {
   id: 'low_1006_4_2a',
   name: '상용한자(4학년-2/음독찾기)',
   data: [
-    { question: '成', answer: ['이룰 성', 'な(る)、な(す)', 'せい、じょう'] },
+    { question: '成', answer: ['이룰 성', 'な(る)、な(す)', 'せい、[じょう]'] },
     { question: '省', answer: ['살필 성', 'はぶ(く)、かえり(みる)', 'せい、しょう'] },
     { question: '巣', answer: ['새집 소', 'す', 'そう'] },
     { question: '焼', answer: ['사를 소', 'や(く)、や(ける)', 'しょう'] },
@@ -19,7 +19,7 @@ export default {
     { question: '失', answer: ['잃을 실', 'うしなう', 'しつ'] },
     { question: '氏', answer: ['성씨 씨', 'うじ', 'し'] },
     { question: '芽', answer: ['싹 아', 'め', 'が'] },
-    { question: '児', answer: ['아이 아', '아이', 'じ、に'] },
+    { question: '児', answer: ['아이 아', '아이', 'じ、[に]'] },
     { question: '案', answer: ['책상 안', '책상', 'あん'] },
     { question: '愛', answer: ['사랑 애', '사랑', 'あい'] },
     { question: '約', answer: ['맺을 약', '맺을', 'やく'] },
@@ -59,8 +59,8 @@ export default {
     { question: '戦', answer: ['싸움 전', 'いくさ、たたか(う)', 'せん'] },
     { question: '伝', answer: ['전할 전', 'つた(わる)、つた(える)、つた(う)', 'でん'] },
     { question: '折', answer: ['꺾을 절', 'お(る)、お(れる)、おり', 'せつ'] },
-    { question: '節', answer: ['마디 절', 'ふし', 'せつ、せち'] },
-    { question: '静', answer: ['고요할 정', 'しず、しず(か)、しず(まる)、しず(める)', 'せい、じょう'] },
+    { question: '節', answer: ['마디 절', 'ふし', 'せつ、[せち]'] },
+    { question: '静', answer: ['고요할 정', 'しず、しず(か)、しず(まる)、しず(める)', 'せい、[じょう]'] },
     { question: '停', answer: ['머무를 정', '머무를', 'てい'] },
     { question: '兆', answer: ['조 조', 'きざ(す)、きざ(し)', 'ちょう'] },
     { question: '照', answer: ['비칠 조', 'て(る)、て(らす)、て(れる)', 'しょう'] },
@@ -77,10 +77,10 @@ export default {
     { question: '倉', answer: ['곳집 창', 'くら', 'そう'] },
     { question: '菜', answer: ['나물 채', 'な', 'さい'] },
     { question: '浅', answer: ['얕을 천', 'あさ(い)', 'せん'] },
-    { question: '清', answer: ['맑을 청', 'きよ(い)、きよ(まる)、きよ(める)', 'せい、しょう'] },
+    { question: '清', answer: ['맑을 청', 'きよ(い)、きよ(まる)、きよ(める)', 'せい、[しょう]'] },
     { question: '初', answer: ['처음 초', 'はじ(め)、はじ(めて)、はつ、うい、そ(める)', 'しょ'] },
     { question: '最', answer: ['가장 최', 'もっと(も)', 'さい'] },
-    { question: '祝', answer: ['빌 축', 'いわ(う)', 'しゅく、しゅう'] },
+    { question: '祝', answer: ['빌 축', 'いわ(う)', 'しゅく、[しゅう]'] },
     { question: '側', answer: ['곁 측', 'がわ', 'そく'] },
     { question: '治', answer: ['다스릴 치', 'おさ(める)、おさ(まる)、なお(る)、なお(す)', 'じ、ち'] },
     { question: '置', answer: ['둘 치', 'お(く)', 'ち'] },
@@ -93,7 +93,7 @@ export default {
     { question: '必', answer: ['반드시 필', 'かなら(ず)', 'ひつ'] },
     { question: '航', answer: ['배 항', '배', 'こう'] },
     { question: '害', answer: ['해할 해', '해할', 'がい'] },
-    { question: '験', answer: ['시험 험', '시험', 'けん、げん'] },
+    { question: '験', answer: ['시험 험', '시험', 'けん、[げん]'] },
     { question: '協', answer: ['화합할 협', '화합할', 'きょう'] },
     { question: '型', answer: ['모형 형', 'かた', 'けい'] },
     { question: '好', answer: ['좋을 호', 'この(む)、す(く)', 'こう'] },
@@ -102,6 +102,5 @@ export default {
     { question: '訓', answer: ['가르칠 훈', '가르칠', 'くん'] },
     { question: '希', answer: ['바랄 희', '바랄', 'き'] },
     { question: '喜', answer: ['기쁠 희', 'よろこ(ぶ)', 'き'] }
-
   ]
 }

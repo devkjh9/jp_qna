@@ -2,7 +2,7 @@ export default {
   id: 'low_1006_4_2b',
   name: '상용한자(4학년-2/한자찾기)',
   data: [
-    { question: '독:な(る)、な(す)/음:せい、じょう', answer: ['成'] },
+    { question: '독:な(る)、な(す)/음:せい、[じょう]', answer: ['成'] },
     { question: '독:はぶ(く)、かえり(みる)/음:せい、しょう', answer: ['省'] },
     { question: '독:す/음:そう', answer: ['巣'] },
     { question: '독:や(く)、や(ける)/음:しょう', answer: ['焼'] },
@@ -19,7 +19,7 @@ export default {
     { question: '독:うしなう/음:しつ', answer: ['失'] },
     { question: '독:うじ/음:し', answer: ['氏'] },
     { question: '독:め/음:が', answer: ['芽'] },
-    { question: '독:아이/음:じ、に', answer: ['児'] },
+    { question: '독:아이/음:じ、[に]', answer: ['児'] },
     { question: '독:책상/음:あん', answer: ['案'] },
     { question: '독:사랑/음:あい', answer: ['愛'] },
     { question: '독:맺을/음:やく', answer: ['約'] },
@@ -59,8 +59,8 @@ export default {
     { question: '독:いくさ、たたか(う)/음:せん', answer: ['戦'] },
     { question: '독:つた(わる)、つた(える)、つた(う)/음:でん', answer: ['伝'] },
     { question: '독:お(る)、お(れる)、おり/음:せつ', answer: ['折'] },
-    { question: '독:ふし/음:せつ、せち', answer: ['節'] },
-    { question: '독:しず、しず(か)、しず(まる)、しず(める)/음:せい、じょう', answer: ['静'] },
+    { question: '독:ふし/음:せつ、[せち]', answer: ['節'] },
+    { question: '독:しず、しず(か)、しず(まる)、しず(める)/음:せい、[じょう]', answer: ['静'] },
     { question: '독:머무를/음:てい', answer: ['停'] },
     { question: '독:きざ(す)、きざ(し)/음:ちょう', answer: ['兆'] },
     { question: '독:て(る)、て(らす)、て(れる)/음:しょう', answer: ['照'] },
@@ -77,10 +77,10 @@ export default {
     { question: '독:くら/음:そう', answer: ['倉'] },
     { question: '독:な/음:さい', answer: ['菜'] },
     { question: '독:あさ(い)/음:せん', answer: ['浅'] },
-    { question: '독:きよ(い)、きよ(まる)、きよ(める)/음:せい、しょう', answer: ['清'] },
+    { question: '독:きよ(い)、きよ(まる)、きよ(める)/음:せい、[しょう]', answer: ['清'] },
     { question: '독:はじ(め)、はじ(めて)、はつ、うい、そ(める)/음:しょ', answer: ['初'] },
     { question: '독:もっと(も)/음:さい', answer: ['最'] },
-    { question: '독:いわ(う)/음:しゅく、しゅう', answer: ['祝'] },
+    { question: '독:いわ(う)/음:しゅく、[しゅう]', answer: ['祝'] },
     { question: '독:がわ/음:そく', answer: ['側'] },
     { question: '독:おさ(める)、おさ(まる)、なお(る)、なお(す)/음:じ、ち', answer: ['治'] },
     { question: '독:お(く)/음:ち', answer: ['置'] },
@@ -93,7 +93,7 @@ export default {
     { question: '독:かなら(ず)/음:ひつ', answer: ['必'] },
     { question: '독:배/음:こう', answer: ['航'] },
     { question: '독:해할/음:がい', answer: ['害'] },
-    { question: '독:시험/음:けん、げん', answer: ['験'] },
+    { question: '독:시험/음:けん、[げん]', answer: ['験'] },
     { question: '독:화합할/음:きょう', answer: ['協'] },
     { question: '독:かた/음:けい', answer: ['型'] },
     { question: '독:この(む)、す(く)/음:こう', answer: ['好'] },
@@ -102,6 +102,5 @@ export default {
     { question: '독:가르칠/음:くん', answer: ['訓'] },
     { question: '독:바랄/음:き', answer: ['希'] },
     { question: '독:よろこ(ぶ)/음:き', answer: ['喜'] }
-
   ]
 }
