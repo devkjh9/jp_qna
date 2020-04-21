@@ -57,7 +57,7 @@ export default {
     { question: '拝', answer: ['절 배', 'おが(む)', 'はい'] },
     { question: '背', answer: ['등 배', 'せ、せい、そむ(く)、そむ(ける)', 'はい'] },
     { question: '俳', answer: ['배우 배', '배우', 'はい'] },
-    { question: '並', answer: ['나란히 병', 'なみ、なら(べる)、なら(ぶ)、並(びに)', 'へい'] },
+    { question: '並', answer: ['나란히 병', 'なみ、なら(べる)、なら(ぶ)、なら(びに)', 'へい'] },
     { question: '補', answer: ['기울 보', 'おぎな(う)', 'ほ'] },
     { question: '宝', answer: ['보배 보', 'たから', 'ほう'] },
     { question: '腹', answer: ['배 복', 'はら', 'ふく'] },

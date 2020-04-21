@@ -57,7 +57,7 @@ export default {
     { question: '독:おが(む)/음:はい', answer: ['拝'] },
     { question: '독:せ、せい、そむ(く)、そむ(ける)/음:はい', answer: ['背'] },
     { question: '독:배우/음:はい', answer: ['俳'] },
-    { question: '독:なみ、なら(べる)、なら(ぶ)、並(びに)/음:へい', answer: ['並'] },
+    { question: '독:なみ、なら(べる)、なら(ぶ)、なら(びに)/음:へい', answer: ['並'] },
     { question: '독:おぎな(う)/음:ほ', answer: ['補'] },
     { question: '독:たから/음:ほう', answer: ['宝'] },
     { question: '독:はら/음:ふく', answer: ['腹'] },
