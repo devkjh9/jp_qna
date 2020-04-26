@@ -1,7 +1,7 @@
 export default {
   id: 'low_1006_2_2b',
   name: '상용한자(2학년-2/한자찾기)',
-  data: [,
+  data: [
     { question: '독:う(る)、う(れる)/음:ばい', answer: ['売'] },
     { question: '독:か(う)/음:ばい', answer: ['買'] },
     { question: '독:かど/음:もん', answer: ['門'] },
