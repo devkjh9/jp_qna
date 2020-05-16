@@ -1,5 +1,5 @@
 <template>
-  <div class="div-canvas-wrapper">
+  <div class="div-canvas-wrapper" v-bind:width="cWidth">
     <canvas
       id="c-canvas"
       v-bind:width="cWidth"
@@ -38,12 +38,12 @@ export default {
   },
   methods: {
     init () {
-      this.$parent.$on('clearCanvas', () => {
-        this.clear()
-      })
+      this.$parent.$on('clearCanvas', this.clear)
       this.cObject = document.getElementById('c-canvas')
       if (this.isMobile()) {
-        this.cWidth = window.outerWidth - 2
+        if (window.outerWidth <= 800) {
+          this.cWidth = window.outerWidth - 2
+        }
         const that = this
         this.cObject.addEventListener('touchmove', function (e) {
           that.move(e)

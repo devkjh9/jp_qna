@@ -402,7 +402,14 @@ export default {
     margin: 0 2px
   }
 
-  @media screen and (max-width: 1469px) {
+  @media screen and (max-width: 1334px) {
+    .div-answer-area{
+      float: none;
+      margin: 15px 0px 15px 0px
+    }
+  }
+
+  @media screen and (max-width: 800px) {
     aside {
       padding: 0px 0px 30px 0px;
       position: static;
