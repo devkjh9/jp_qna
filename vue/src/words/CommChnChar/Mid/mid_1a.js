@@ -1,5 +1,5 @@
 export default {
-  id: 'mid_1_1a',
+  id: 'mid_1a',
   name: '상용한자(중학1/음독찾기)',
   data: [
     { question: '介', answer: ['끼일 개', '끼일', 'かい'] },
