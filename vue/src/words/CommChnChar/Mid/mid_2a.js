@@ -67,7 +67,7 @@ export default {
     { question: '苛', answer: ['가혹할 가', '가혹할', 'か'] },
     { question: '奇', answer: ['기이할 기', '기이할', 'き'] },
     { question: '埼', answer: ['갑 기', '[さい]', ''] },
-    { question: '崎', answer: ['험할 기', '험할', 'さき'] },
+    { question: '崎', answer: ['험할 기', 'さき', ''] },
     { question: '騎', answer: ['말탈 기', '말탈', 'き'] },
     { question: '椅', answer: ['의자 의', '의자', 'い'] },
     { question: '伺', answer: ['엿볼 사', 'うかがう', 'し'] },

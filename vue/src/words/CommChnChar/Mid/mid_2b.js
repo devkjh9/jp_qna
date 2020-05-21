@@ -67,7 +67,7 @@ export default {
     { question: '독:가혹할/음:か', answer: ['苛'] },
     { question: '독:기이할/음:き', answer: ['奇'] },
     { question: '독:[さい]/음:', answer: ['埼'] },
-    { question: '독:험할/음:さき', answer: ['崎'] },
+    { question: '독:さき/음:', answer: ['崎'] },
     { question: '독:말탈/음:き', answer: ['騎'] },
     { question: '독:의자/음:い', answer: ['椅'] },
     { question: '독:うかがう/음:し', answer: ['伺'] },
