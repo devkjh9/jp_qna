@@ -66,7 +66,7 @@ export default {
     { question: '依', answer: ['의지할 의', '의지할', 'い、[え]'] },
     { question: '喪', answer: ['초상 상, 잃을 상', 'も', 'そう'] },
     { question: '哀', answer: ['슬플 애', 'あわ(れ)、あわ(れむ)', 'あい'] },
-    { question: '衰', answer: ['상복 최', 'おとろ(える)', 'すい'] },
+    { question: '衰', answer: ['쇠할 쇠, 상복 최', 'おとろ(える)', 'すい'] },
     { question: '衷', answer: ['속마음 충', '속마음', 'ちゅう'] },
     { question: '猿', answer: ['원숭이 원', 'さる', 'えん'] },
     { question: '褒', answer: ['기릴 포', 'ほ(める)', 'ほう'] },
