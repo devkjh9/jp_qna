@@ -6,6 +6,8 @@ import mid3a from './mid_3a'
 import mid3b from './mid_3b'
 import mid4a from './mid_4a'
 import mid4b from './mid_4b'
+import mid5a from './mid_5a'
+import mid5b from './mid_5b'
 
 export default {
   label: '상용한자(중학교)',
@@ -17,6 +19,8 @@ export default {
     mid3a,
     mid3b,
     mid4a,
-    mid4b
+    mid4b,
+    mid5a,
+    mid5b
   ]
 }
