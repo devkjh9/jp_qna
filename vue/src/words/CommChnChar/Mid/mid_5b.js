@@ -69,7 +69,7 @@ export default {
     { question: '독:ふ(える)、ふ(やす)/음:しょく', answer: ['殖'] },
     { question: '독:いの(る)/음:き', answer: ['祈'] },
     { question: '독:쪼갤/음:せき', answer: ['析'] },
-    { question: '독:장인/음:しょく', answer: ['匠'] },
+    { question: '독:장인/음:しょう', answer: ['匠'] },
     { question: '독:き(る)/음:ざん', answer: ['斬'] },
     { question: '독:점점/음:ぜん', answer: ['漸'] },
     { question: '독:잠깐/음:ざん', answer: ['暫'] },
