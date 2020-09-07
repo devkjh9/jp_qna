@@ -69,7 +69,7 @@ export default {
     { question: '殖', answer: ['불릴 식', 'ふ(える)、ふ(やす)', 'しょく'] },
     { question: '祈', answer: ['빌 기', 'いの(る)', 'き'] },
     { question: '析', answer: ['쪼갤 석', '쪼갤', 'せき'] },
-    { question: '匠', answer: ['장인 장', '장인', 'しょく'] },
+    { question: '匠', answer: ['장인 장', '장인', 'しょう'] },
     { question: '斬', answer: ['벨 참, 죽일 참', 'き(る)', 'ざん'] },
     { question: '漸', answer: ['점점 점', '점점', 'ぜん'] },
     { question: '暫', answer: ['잠깐 잠', '잠깐', 'ざん'] },
