@@ -36,7 +36,7 @@ export default {
     { question: '독:바퀴자국/음:き', answer: ['軌'] },
     { question: '독:やわ(らか)、やわ(らかい)/음:なん', answer: ['軟'] },
     { question: '독:かがや(く)/음:き', answer: ['輝'] },
-    { question: '독:ぬぐ(む)/음:けい、え', answer: ['恵'] },
+    { question: '독:めぐ(む)/음:けい、え', answer: ['恵'] },
     { question: '독:ほ/음:すい', answer: ['穂'] },
     { question: '독:こお(る)、こご(える)/음:とう', answer: ['凍'] },
     { question: '독:むね、[むな]/음:とう', answer: ['棟'] },

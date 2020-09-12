@@ -36,7 +36,7 @@ export default {
     { question: '軌', answer: ['바퀴자국 궤', '바퀴자국', 'き'] },
     { question: '軟', answer: ['연할 연', 'やわ(らか)、やわ(らかい)', 'なん'] },
     { question: '輝', answer: ['빛날 휘', 'かがや(く)', 'き'] },
-    { question: '恵', answer: ['은혜 혜', 'ぬぐ(む)', 'けい、え'] },
+    { question: '恵', answer: ['은혜 혜', 'めぐ(む)', 'けい、え'] },
     { question: '穂', answer: ['이삭 수', 'ほ', 'すい'] },
     { question: '凍', answer: ['얼 동', 'こお(る)、こご(える)', 'とう'] },
     { question: '棟', answer: ['대들보 동', 'むね、[むな]', 'とう'] },
