@@ -35,7 +35,7 @@ export default {
     { question: '독:つ(ぐ)/음:けい', answer: ['継'] },
     { question: '독:おく/음:おう', answer: ['奥'] },
     { question: '독:ゆ(れる)、ゆ(る)、ゆ(らぐ)、ゆ(るぐ)、ゆ(する)、ゆ(さぶる)、ゆ(すぶる)/음:よう', answer: ['揺'] },
-    { question: '독:うた(い)/음:よう', answer: ['謡'] },
+    { question: '독:うたい, うた(う)/음:よう', answer: ['謡'] },
     { question: '독:ひるがえ(る)、ひるがえ(す)/음:ほん', answer: ['翻'] },
     { question: '독:울타리/음:はん', answer: ['藩'] },
     { question: '독:살필/음:しん', answer: ['審'] },
