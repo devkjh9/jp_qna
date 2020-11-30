@@ -26,7 +26,7 @@ export default {
     { question: '宛', answer: ['완연할 완', 'あ(てる)', ''] },
     { question: '腕', answer: ['팔 완', 'うで', 'わん'] },
     { question: '卸', answer: ['풀 사, 도매할 사', 'おろ(す)、おろし', ''] },
-    { question: '御', answer: ['거느릴 어', 'おん', 'きょ、ご'] },
+    { question: '御', answer: ['거느릴 어', 'おん', 'ぎょ、ご'] },
     { question: '鈴', answer: ['방울 령', 'すず', 'れい、りん'] },
     { question: '零', answer: ['떨어질 령, 영(0) 령', '떨어질, 영(0)', 'れい'] },
     { question: '齢', answer: ['나이 령', '나이', 'れい'] },

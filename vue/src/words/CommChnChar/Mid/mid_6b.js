@@ -26,7 +26,7 @@ export default {
     { question: '독:あ(てる)/음:', answer: ['宛'] },
     { question: '독:うで/음:わん', answer: ['腕'] },
     { question: '독:おろ(す)、おろし/음:', answer: ['卸'] },
-    { question: '독:おん/음:きょ、ご', answer: ['御'] },
+    { question: '독:おん/음:ぎょ、ご', answer: ['御'] },
     { question: '독:すず/음:れい、りん', answer: ['鈴'] },
     { question: '독:떨어질, 영(0)/음:れい', answer: ['零'] },
     { question: '독:나이/음:れい', answer: ['齢'] },
